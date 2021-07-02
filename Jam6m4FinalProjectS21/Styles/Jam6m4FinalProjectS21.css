@@ -1,0 +1,344 @@
+/*   Styles for Final Project   */
+
+/*  Fonts  */
+@font-face {
+    font-family: "Orelega One";
+    src: url(../Fonts/Orelega_One/OrelegaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Metal Mania";
+    src: url(../Fonts/Metal_Mania/MetalMania-Regular.ttf);
+}
+
+
+/*  Navbar Styles  */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    z-index: 1;
+    
+}
+
+#navbarList {
+    list-style-type: none;
+}
+
+.navbarItem {
+    display: inline;
+    font-family: "Metal Mania", serif;
+    font-size: 35px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbarLink {
+    font-family: "Metal Mania", serif;
+    text-decoration: none;
+}
+
+.miwLogo {
+    height: 120px;
+}
+
+/* End of Navbar styles */
+
+
+/* generic styles */
+
+body {
+    background-image: url('../Images/Jam6m4FinalProjectS21Snow.jpeg');
+    background-size: 100% 100%;
+}
+
+* {
+    font-family: "Orelega One", serif;
+    color: white;
+}
+
+img {
+    border: 2px solid black;
+}
+
+/* end of generic styles */
+
+/* Home Page Styles */
+
+.content {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 1200px;
+    background-color: #303030;
+    padding-top: 20px;
+}
+
+.intro {
+    font-size: 75px;
+    font-family: "Metal Mania", serif;
+}
+
+.description {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.bandPhoto {
+    height: 500px;
+}
+
+
+.merch {
+    font-size: 75px;
+    font-family: "Metal Mania", serif;
+}
+
+.merchList {
+    list-style-type: none;
+}
+
+.merchItem {
+    display: inline;
+}
+
+
+.merchImage {
+    width: 275px;
+}
+
+.merchStoreLink {
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    font-size: 40px;
+    width: 750px;
+}
+
+
+/* Music Page Styles */
+
+.musicHeader {
+    font-size: 75px;
+    font-family: "Metal Mania", serif;
+}
+
+/* the following was referenced from Prof. Wergeles' lecture on UI Design */
+#recordPlayer {
+    background-image: url('../Images/Music/Jam6m4FinalProjectS21MusicNote.jpeg');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 266px;
+    margin: 15px auto;
+}
+
+#message {
+    text-align: center;
+}
+
+#music {
+    list-style: none;
+    margin: auto;
+}
+
+#music > li {
+    display: inline-block;
+}
+
+.record {
+    width: 290px;
+}
+
+.record:hover{
+    cursor: move;
+}
+            
+audio {
+    display: none;
+}
+/* end of reference */
+
+#description {
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+#scroll {
+    font-size: 22px;
+}
+
+.instructions {
+    font-size: 25px;
+}
+
+/* end of Music Page Styles  */
+
+/* Video page Styles */
+
+.videoHeader {
+    font-size: 75px;
+    font-family: "Metal Mania", serif;
+}
+
+.videos {
+    margin: auto;
+}
+
+iframe {
+    margin-bottom: 10px;
+    border: 0;
+}
+
+
+/* End of Video Page Styles */
+
+/* Gallery Styles */
+
+/* the following styles were referenced using: https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+.head {
+    font-size: 75px;
+    font-family: "Metal Mania", serif;
+}
+
+.slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshowImage {
+    max-width: 900px;
+    max-height: 900px;
+    width: 900px;
+    height: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: lightgray;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/* end of reference */
+
+/* End of Gallery Styles */
+.tourPhoto {
+    width: 750px;
+    height: 500px;
+    margin: auto;
+}
+
+.tour {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.tour, th, td {
+    border: 2px solid black;
+}
+
+th {
+    background-color: #606060;
+}
+
+td {
+    background-color: #808080;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.form {
+    margin: auto;
+    border: 2px solid black;
+    text-align: left;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    color: black;
+}
+
+label, input, button {
+    margin: 5px;
+}
+
+#submit {
+    background-color: crimson;
+}
+
+
+
+/*  Tour Page Styles   */
+
+
+/* Ticket Confirmation Styles  */
+
+.ticketConfirmation {
+    width: 750px;
+    height: 500px;
+    
+}
+
+.thankYou {
+    font-size: 22px;
+}
+
+.seeYou {
+    font-family: "Metal Mania", serif;
+    font-size: 45px;
+}
